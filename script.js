@@ -12,3 +12,6 @@ let enemyNearby = true;
 // Connect to the page
 const missionStatus = document.querySelector("#missionStatus");
 const studentInfo = document.querySelector("#studentInfo");
+
+// Show student details on page
+studentInfo.textContent = "Vrushil Panchal - 200628377";
