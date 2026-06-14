@@ -1,6 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background: #111;
+    background: #fd0303cd;
+    color: #000000;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #299c40;
     color: #eee;
     text-align: center;
     padding-top: 50px;
@@ -8,4 +19,20 @@ body {
 
 h1 {
     margin-bottom: 20px;
+}
+
+#studentInfo {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #000000;
+}
+
+#missionStatus {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: 1px solid #ff3d02;
+    display: inline-block;
+    border-radius: 6px;
+    background: #222;
+    font-size: 1.2rem;
 }
