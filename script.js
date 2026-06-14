@@ -23,14 +23,14 @@ if (health < 30 && enemyNearby === true) {
 else if (ammo < 5 || shield === false) {
     missionStatus.textContent = "Warning: Low Resources";
 }
+else if (missionProgress === 100) {
+    missionStatus.textContent = "Mission Complete Successfully";
+}
 else if (missionProgress >= 1 && missionProgress <= 70) {
     missionStatus.textContent = "Mission In Progress";
 }
 else if (missionProgress > 70 && enemyNearby === false) {
     missionStatus.textContent = "Approaching Mission Completion";
-}
-else if (missionProgress === 100) {
-    missionStatus.textContent = "Mission Complete Successfully";
 }
 else {
     missionStatus.textContent = "System Stable";
